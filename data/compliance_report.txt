@@ -1,0 +1,47 @@
+MERIDIAN TECHNOLOGIES PTE. LTD.
+Internal Compliance Summary - Q4 2024 / January 2025 Review
+Classification: Internal Use Only
+Prepared by: Aisha Kamara, Compliance Officer
+
+---
+
+OVERVIEW
+
+This report summarises Meridian's current compliance posture against ISO 27001
+(Information Security Management) and GDPR obligations for the period ending
+31 December 2024. Overall, the organisation remains compliant with no critical
+findings. Two medium-severity observations have been raised and are being tracked
+for remediation.
+
+---
+
+ISO 27001 STATUS
+
+The annual internal audit conducted in November 2024 confirmed that core controls
+across access management, incident response, and asset classification remain
+operational and effective. Staff completed mandatory security awareness training
+with a completion rate of 94% (target: 100%). The remaining 6% are in progress
+and are expected to complete by end of January 2025.
+
+One medium observation was noted: privileged access reviews for the analytics_db
+server were last conducted in July 2024, exceeding the 6-month review cycle. A
+review has been scheduled for 20 January 2025.
+
+---
+
+GDPR COMPLIANCE
+
+All personal data processing activities are documented in the Records of Processing
+Activities (RoPA) register, last updated October 2024. Meridian received 3 data
+subject access requests (DSARs) in Q4 2024, all resolved within the statutory 30-day
+window. No personal data breaches were reported in this period.
+
+A second medium observation relates to the retention of employee applicant data.
+Candidate records older than 12 months were identified in the recruitment database
+and have not yet been purged. The data team has been notified and deletion is
+scheduled for 31 January 2025.
+
+---
+
+NEXT REVIEW DATE: April 2025
+Contact: compliance@meridian.internal
