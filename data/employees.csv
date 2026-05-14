@@ -1,0 +1,11 @@
+employee_id,name,department,role,salary,manager
+EMP001,Arjun Mehta,Engineering,Senior Software Engineer,120000,EMP007
+EMP002,Sandra Okonkwo,Human Resources,HR Business Partner,85000,EMP009
+EMP003,Wei Liang,Data Analytics,Data Analyst,92000,EMP008
+EMP004,Priya Nair,People & Culture,VP People & Culture,175000,EMP010
+EMP005,Daniel Torres,Engineering,DevOps Engineer,110000,EMP007
+EMP006,Aisha Kamara,Compliance,Compliance Officer,98000,EMP010
+EMP007,Rohan Desai,Engineering,Engineering Manager,155000,EMP010
+EMP008,Claire Dubois,Data Analytics,Analytics Manager,148000,EMP010
+EMP009,James Whitfield,Human Resources,HR Manager,132000,EMP004
+EMP010,Sunita Krishnamurthy,Executive,Chief Operating Officer,280000,
