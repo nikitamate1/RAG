@@ -1,0 +1,122 @@
+[
+  {
+    "timestamp": "2025-01-14T08:12:34Z",
+    "user_id": "EMP001",
+    "action": "LOGIN",
+    "status": "SUCCESS",
+    "ip_address": "192.168.1.45",
+    "resource": "hr.meridian.internal"
+  },
+  {
+    "timestamp": "2025-01-14T08:15:02Z",
+    "user_id": "EMP001",
+    "action": "FILE_ACCESS",
+    "status": "SUCCESS",
+    "ip_address": "192.168.1.45",
+    "resource": "/reports/q4_engineering_metrics.pdf"
+  },
+  {
+    "timestamp": "2025-01-14T09:03:11Z",
+    "user_id": "EMP003",
+    "action": "FILE_ACCESS",
+    "status": "DENIED",
+    "ip_address": "10.0.0.88",
+    "resource": "/hr/salary_bands_2025.xlsx"
+  },
+  {
+    "timestamp": "2025-01-14T09:45:58Z",
+    "user_id": "EMP006",
+    "action": "EXPORT_DATA",
+    "status": "SUCCESS",
+    "ip_address": "192.168.2.12",
+    "resource": "/compliance/gdpr_audit_jan2025.pdf"
+  },
+  {
+    "timestamp": "2025-01-14T10:22:17Z",
+    "user_id": "EMP005",
+    "action": "LOGIN",
+    "status": "FAILED",
+    "ip_address": "203.0.113.77",
+    "resource": "vpn.meridian.internal"
+  },
+  {
+    "timestamp": "2025-01-14T10:23:44Z",
+    "user_id": "EMP005",
+    "action": "LOGIN",
+    "status": "FAILED",
+    "ip_address": "203.0.113.77",
+    "resource": "vpn.meridian.internal"
+  },
+  {
+    "timestamp": "2025-01-14T10:24:01Z",
+    "user_id": "EMP005",
+    "action": "LOGIN",
+    "status": "ACCOUNT_LOCKED",
+    "ip_address": "203.0.113.77",
+    "resource": "vpn.meridian.internal"
+  },
+  {
+    "timestamp": "2025-01-14T11:05:30Z",
+    "user_id": "EMP009",
+    "action": "RECORD_UPDATE",
+    "status": "SUCCESS",
+    "ip_address": "192.168.1.61",
+    "resource": "/hr/employee_records/EMP003"
+  },
+  {
+    "timestamp": "2025-01-14T11:47:22Z",
+    "user_id": "EMP002",
+    "action": "FILE_ACCESS",
+    "status": "SUCCESS",
+    "ip_address": "192.168.1.14",
+    "resource": "/hr/leave_requests_jan2025.csv"
+  },
+  {
+    "timestamp": "2025-01-14T13:15:09Z",
+    "user_id": "EMP008",
+    "action": "QUERY_EXECUTE",
+    "status": "SUCCESS",
+    "ip_address": "192.168.3.55",
+    "resource": "analytics_db.meridian.internal"
+  },
+  {
+    "timestamp": "2025-01-14T14:00:45Z",
+    "user_id": "EMP010",
+    "action": "ADMIN_ACCESS",
+    "status": "SUCCESS",
+    "ip_address": "192.168.0.5",
+    "resource": "/admin/user_permissions"
+  },
+  {
+    "timestamp": "2025-01-14T14:33:18Z",
+    "user_id": "EMP003",
+    "action": "FILE_ACCESS",
+    "status": "DENIED",
+    "ip_address": "10.0.0.88",
+    "resource": "/compliance/legal_notices/"
+  },
+  {
+    "timestamp": "2025-01-14T15:12:40Z",
+    "user_id": "EMP007",
+    "action": "BULK_EXPORT",
+    "status": "FLAGGED",
+    "ip_address": "192.168.1.99",
+    "resource": "/engineering/source_code_backup.zip"
+  },
+  {
+    "timestamp": "2025-01-14T16:05:55Z",
+    "user_id": "EMP006",
+    "action": "POLICY_UPDATE",
+    "status": "SUCCESS",
+    "ip_address": "192.168.2.12",
+    "resource": "/compliance/data_retention_policy_v2.docx"
+  },
+  {
+    "timestamp": "2025-01-14T17:30:00Z",
+    "user_id": "EMP001",
+    "action": "LOGOUT",
+    "status": "SUCCESS",
+    "ip_address": "192.168.1.45",
+    "resource": "hr.meridian.internal"
+  }
+]

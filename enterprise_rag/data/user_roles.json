@@ -1,0 +1,46 @@
+{
+  "roles": {
+    "admin": {
+      "description": "Full system access - IT and executive leadership only",
+      "allowed_sources": ["hr_policy", "employees", "system_audit_log", "compliance_report"],
+      "users": ["EMP010"]
+    },
+    "hr_manager": {
+      "description": "Access to HR documents and employee records",
+      "allowed_sources": ["hr_policy", "employees"],
+      "users": ["EMP002", "EMP004", "EMP009"]
+    },
+    "analyst": {
+      "description": "Access to structured data and compliance reports for reporting purposes",
+      "allowed_sources": ["employees", "compliance_report"],
+      "users": ["EMP003", "EMP008"]
+    },
+    "engineer": {
+      "description": "Access to system logs and technical reports",
+      "allowed_sources": ["system_audit_log"],
+      "users": ["EMP001", "EMP005", "EMP007"]
+    }
+  },
+  "source_metadata": {
+    "hr_policy": {
+      "file": "hr_policy.txt",
+      "type": "text",
+      "sensitivity": "internal"
+    },
+    "employees": {
+      "file": "employees.csv",
+      "type": "csv",
+      "sensitivity": "confidential"
+    },
+    "system_audit_log": {
+      "file": "system_audit_log.json",
+      "type": "json",
+      "sensitivity": "restricted"
+    },
+    "compliance_report": {
+      "file": "compliance_report.txt",
+      "type": "text",
+      "sensitivity": "internal"
+    }
+  }
+}
